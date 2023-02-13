@@ -1,0 +1,24 @@
+.footer {
+    background-color: #536c59;
+    text-align: center;
+}
+
+.footer__title {
+    color: #F2F2F2;
+    text-transform: uppercase;
+}
+
+.footer__list {
+    list-style: none;
+    color: #F2F2F2;
+    font-weight: 600;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.footer__link:hover {
+    color: #b7aeae;
+}

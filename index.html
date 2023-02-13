@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justyna Kowalewska</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/navigation.css">
+    <link rel="stylesheet" href="CSS/section.css">
+    <link rel="stylesheet" href="CSS/tableContainer.css">
+    <link rel="stylesheet" href="CSS/table.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li> <a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li> <a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+            <li> <a class="navigation__link" href="#praca">Praca</a></li>
+            <li> <a class="navigation__link" href="#wyksztalcenie">Wykształcenie</a></li>
+            <li> <a class="navigation__link" href="#ulubiony-kolor">Ulubiony kolor</a></li>
+            <li> <a class="navigation__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header class="section section--centered">
+            <img class="section__picture" width="200px" src="https://i.postimg.cc/28C0zJqQ/Justyna.jpg"
+                alt="Justyna Kowalewska">
+            <h1 class="section__title">Justyna Kowalewska</h1>
+            <h2 class="section__subtitle">
+                Żona, Mama, Agent Ubezpieczeniowy
+            </h2>
+        </header>
+
+        <section class="section" id="o-mnie">
+            <h2 class="section__title">O mnie</h2>
+            <p class="section__paragraph">
+                30-letnia mieszkanka Suwalszczyzny. Cenię ciszę, spokój, naturę. Często
+                pracuję z
+                domu, który znajduje
+                się w środku lasu. Mam wspaniałą rodzinę. W wolnym czasie uwielbiam czytać.
+            </p>
+        </section>
+
+        <section class="section" id="zainteresowania">
+            <h2 class="section__title">Zainteresowania</h2>
+            <p class="section__paragraph">
+                Jedno największe hobby - książki. Czytam prawie codziennie szczególnie, gdy dziecko pójdzie spać. W
+                pewnym momencie okazało się, że wydaje na nie nieco za dużo. Doskonałym rozwiązaniem okazał się czytnik
+                e-book i abonament na dostęp do bibliotek. Ciekawostka - potrafię czytać bardzo szybko.
+            </p>
+        </section>
+
+        <section class="section" id="praca">
+            <h2 class="section__title">Praca</h2>
+            <p class="section__paragraph">
+                Od dwóch lat jestem agentem ubezpieczeniowym oraz współwłaścicelem biura
+                Serce
+                Fiansów. Specjalizuje się
+                w
+                ubezpieczeniach na życie i zdrowie. Dbam o odpowiednie zabezpieczenie finansowe klientów w razie
+                wystąpienia
+                śmierci, poważnych zachorowań bądź wypadków. Nasze biuro pełni kompleksowe usługi w zakresie sprzedaży
+                bądź
+                kupna nieruchomości, znalezienia źródła finansowania w postaci kredytu oraz zadbania o odpowiednie
+                ubezpieczenie.
+            </p>
+        </section>
+
+        <section class="section" id="wyksztalcenie">
+            <h2 class="section__title">Wykształcenie</h2>
+            <div class="table__container">
+                <table class="table">
+                    <tr>
+                        <th scope="col" class="table__cell table__cell--header">Szkoła/Uczelnia</th>
+                        <th scope="col" class="table__cell table__cell--header">Kierunek</th>
+                        <th scope="col" class="table__cell table__cell--header">Rok ukończenia</th>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">SGH w Warszawie</td>
+                        <td class="table__cell">Finanse i Rachunkowość</td>
+                        <td class="table__cell">2017</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Uniwersytet w Białymstoku</td>
+                        <td class="table__cell">Ekonomia</td>
+                        <td class="table__cell">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="table__cell">Liecum Ogólnokształcące</td>
+                        <td class="table__cell">Matematyczno-Geograficzny</td>
+                        <td class="table__cell">2011</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="ulubiony-kolor">
+            <h2 class="section__title">Mój ulubiony kolor</h2>
+            <div class="section__colorElement js-colorElement">
+            </div>
+            <button class="section__button js-changeFavouriteColor">Naciśnij i sprawdź</button>
+        </section>
+    </main>
+
+    <footer class="footer" id="kontakt">
+        <h2 class="footer__title">Kontakt</h2>
+        <ul class="footer__list">
+            <li>Biuro: ul. Zawadzkiego 2 / lok. 012, 16-400 Suwałki</a></li>
+            <li><a class="footer__link" href="mailto: biuro@sercefinansow.pl">E-mail: biuro@sercefinansow.pl</a></li>
+            <li><a class="footer__link" href="tel: +48783677616">Tel : 783 677 616</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
