@@ -1,11 +1,22 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    };
 
-let changeFavouriteColor = document.querySelector(".js-changeFavouriteColor");
-let colorElement = document.querySelector(".js-colorElement");
+    const onChangeFavouriteColor = () => {
+        const colorElement = document.querySelector(".js-colorElement");
+        const nextColorName = document.querySelector(".js-nextColorName");
 
-changeFavouriteColor.addEventListener("click", () => {
-    colorElement.classList.toggle("section__colorElement--favourite");
-    colorElement.classList.contains("section__colorElement--favourite") ? changeFavouriteColor.innerText = "To niebieski!" : changeFavouriteColor.innerText = "Naciśnij i sprawdź";
-});
+        colorElement.classList.toggle("section__colorElement--favourite");
+        nextColorName.innerText = colorElement.classList.contains("section__colorElement--favourite") ? "To niebieski!" : "Naciśnij i sprawdź";
+    };
 
+    const init = () => {
+        const changeFavouriteColor = document.querySelector(".js-changeFavouriteColor");
 
+        changeFavouriteColor.addEventListener("click", onChangeFavouriteColor);
+        welcome();
+    };
+
+    init();
+}
