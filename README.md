@@ -3,8 +3,7 @@
 ![Animation](images/Animation.gif)
 You can visit my website here: [Homepage](https://justynakow.github.io/Homepage/)
 ## Description
-This is a website created as homework for the YouCode course.
-This page is about me and:
+This is my homework website for the YouCode course. This page is about me and:
 - my hobby,
 - my work,
 - my education.
